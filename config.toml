@@ -1,0 +1,32 @@
+_inputs:
+  title:
+    type: text
+    comment: The title of your page.
+_select_data:
+  colors:
+    - Red
+    - Green
+    - Blue
+source: src
+base_url: /documentation
+collections_config:
+  people:
+    path: content/people
+    output: true
+    name: Personnel
+    _enabled_editors:
+      - data
+  posts:
+    path: _posts
+    output: true
+  pages:
+    name: Main pages
+data_config:
+  authors: true
+  offices: true
+paths:
+  uploads: assets/uploads
+  collections: items
+  data: _data
+  layouts: _layouts
+  includes: _partials
