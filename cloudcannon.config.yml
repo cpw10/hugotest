@@ -1,0 +1,14 @@
+paths:
+  uploads: static/uploads
+  static: static
+  collections: content
+  data: data
+  layouts: layouts
+  includes: layouts
+collections_config: {}
+_inputs: {}
+_select_data: {}
+_structures: {}
+_editables: {}
+data_config: {}
+timezone: Etc/UTC
